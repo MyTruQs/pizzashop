@@ -29,7 +29,6 @@ export function SignUp() {
 	async function handleSignUp(data: SignUpForm) {
 		try {
 			await new Promise((resolve) => setTimeout(resolve, 2000))
-			console.log(data)
 
 			toast.success('Restaurante cadastrado com sucesso!', {
 				action: {
@@ -47,7 +46,7 @@ export function SignUp() {
 			<Helmet title='Cadastro' />
 			<div className='p-8'>
 				<Button variant='secondary' asChild className='absolute top-8 right-8'>
-					<Link to='/sign-in'>Fazer login</Link>
+					<Link to='/sign-in'>Fazer login!</Link>
 				</Button>
 
 				<div className='flex w-[350px] flex-col justify-center gap-6'>
