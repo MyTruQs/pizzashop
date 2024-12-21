@@ -6,7 +6,6 @@ import { z } from 'zod'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
-import { Ghost } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const signInForm = z.object({
